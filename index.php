@@ -123,7 +123,7 @@
                         </address>
                     </div>
                    <div class="col-xs-12 col-md-8">
-                        <form action="includes/process.php" id="contact-form" method="post" class="contact-form">
+                        <form action="includes/proccess.php" id="contact-form" method="post" class="contact-form">
                             <div class="form-double">
                                 <select  name='domain' id="form-name" class='form-control' style='width: 100%;' required>
                                     <option selected='selected' disabled='disable'>Please Insert Domain</option>
@@ -137,7 +137,7 @@
                                         </select>
 
                             
-                                <select  name='domain' id="form-email" class='form-control' style='width: 100%;' required>
+                                <select  name='service' id="form-email" class='form-control' style='width: 100%;' required>
                                     <option selected='selected' disabled='disable'>Please Type Records</option>
                                          <option value='A'>A Records</option>
                                              <option value='CNAME'>CNAME Records</option>
@@ -146,7 +146,7 @@
                             </div>
                             <input type="text" name="subdomain" id="subdomain" name="form-subject" class="form-control" placeholder="Subdomain Name">
                             <input type="text" name="content" id="content" name="form-subject" class="form-control" placeholder="Content IP / Domain">
-                            <button type="sibmit" class="button">Submit</button>
+                            <button type="submit" class="button">Submit</button>
                         </form>
                     </div>
                 </div>
