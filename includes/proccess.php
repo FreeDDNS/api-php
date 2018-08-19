@@ -7,7 +7,7 @@
 **/
 
 /** Variable Yang Dibutuhkan **/
-$api_key    = "17016df8c9bb94660bd422a1c1713c9c"; // Your User API Key (Mohon Jangan Ada Karakter Spasi !)
+$api_key    = "YOUR API KEY"; // Your User API Key (Mohon Jangan Ada Karakter Spasi !)
 $service    = $_POST['service']; // Service, Available A, NS, CNAME & MX
 $domain     = $_POST['domain']; // Domain Name
 $subdomain  = $_POST['subdomain']; // Subdomain Name to Create
@@ -20,5 +20,15 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_VERBOSE, 1);
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
 $result     = curl_exec($ch);
-echo $result;
+$newarray = json_decode(trim($result), TRUE);
+$status = $newarray["success"];
+$message = $newarray["message"];
+if($status == 'false'){
+	echo "Error, Unable To Create Subdomain";
+	echo "<pre>Message : " .$message."</pre>";
+} else {
+	echo "<pre>" .$result. "</pre>";
+}
+
+
 ?>
