@@ -7,7 +7,7 @@
 **/
 
 /** Variable Yang Dibutuhkan **/
-$api_key    = "YOURAPIKEY"; // Your User API Key (Mohon Jangan Ada Karakter Spasi !)
+$api_key    = "17016df8c9bb94660bd422a1c1713c9c"; // Your User API Key (Mohon Jangan Ada Karakter Spasi !)
 $service    = $_POST['service']; // Service, Available A, NS, CNAME & MX
 $domain     = $_POST['domain']; // Domain Name
 $subdomain  = $_POST['subdomain']; // Subdomain Name to Create
