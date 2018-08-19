@@ -1,35 +1,30 @@
 
 <!doctype html>
-
 <head>
-    
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-   
-    <!-- Title -->
-   <title>Example API Use FreeDDNS API</title>
-
-        <meta charset="UTF-8">
-        <meta name="keywords" content="ddns, free ddns, free subdomain,subdomain" />
-        <meta name="robots" content="index,follow" />
-        <meta name="description" content="Free DDNS Ini Merupakan sebuah website penyedia layanan service ddns gratis," />
-        <meta name="subject" content="Free DDNS Service Indonesia">
-        <meta name="copyright"content="Mexious Meida">
-        <meta name="language" content="ID_id">
-        <meta name="Classification" content="Service">
-        <meta name="author" content="rifky@mexio.us">
-        <meta name="designer" content="zain@mexio.us">
-        <meta name="og:image" content="images/thumbnail.png"/>
-        <meta name="reply-to" content="no-replay@hostddns.us">
-        <meta name="owner" content="Rifky">
-        <meta name="url" content="https://www.hostddns.us">
-        <meta name="category" content="Service">
-        <meta name="coverage" content="Worldwide">
-        <meta name="distribution" content="Global">
-        <meta name="rating" content="General">
-        <meta name="revisit-after" content="7 days">
-        <meta http-equiv="Expires" content="0">
-        <meta http-equiv="Pragma" content="no-cache">
-        <meta http-equiv="Cache-Control" content="no-cache">
+    <title>Example API Use FreeDDNS API</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="ddns, free ddns, free subdomain,subdomain" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="Free DDNS Ini Merupakan sebuah website penyedia layanan service ddns gratis," />
+    <meta name="subject" content="Free DDNS Service Indonesia">
+    <meta name="copyright"content="Mexious Meida">
+    <meta name="language" content="ID_id">
+    <meta name="Classification" content="Service">
+    <meta name="author" content="rifky@mexio.us">
+    <meta name="designer" content="zain@mexio.us">
+    <meta name="og:image" content="images/thumbnail.png"/>
+    <meta name="reply-to" content="no-replay@hostddns.us">
+    <meta name="owner" content="Rifky">
+    <meta name="url" content="https://www.hostddns.us">
+    <meta name="category" content="Service">
+    <meta name="coverage" content="Worldwide">
+    <meta name="distribution" content="Global">
+    <meta name="rating" content="General">
+    <meta name="revisit-after" content="7 days">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
 
     <!-- Place favicon.ico in the root directory -->
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -89,7 +84,7 @@
                     <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                         <div class="page-title">
                             <h2>FreeDDNS</h2>
-                            <p>Create Your Own DDNS & Subdomain</p>
+                            <p>Create Your Own Web DDNS & Subdomain Use API</p>
                         </div>
                     </div>
                 </div>
@@ -123,7 +118,7 @@
                         </address>
                     </div>
                    <div class="col-xs-12 col-md-8">
-                        <form action="includes/proccess.php" id="contact-form" method="post" class="contact-form">
+                        <form action="includes/proccess.php"  method="post" >
                             <div class="form-double">
                                 <select  name='domain' id="form-name" class='form-control' style='width: 100%;' required>
                                     <option selected='selected' disabled='disable'>Please Insert Domain</option>
@@ -146,6 +141,7 @@
                             </div>
                             <input type="text" name="subdomain" id="subdomain" name="form-subject" class="form-control" placeholder="Subdomain Name">
                             <input type="text" name="content" id="content" name="form-subject" class="form-control" placeholder="Content IP / Domain">
+
                             <button type="submit" class="button">Submit</button>
                         </form>
                     </div>
