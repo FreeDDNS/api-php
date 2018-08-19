@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
    
     <!-- Title -->
-   <title>FreeDDNS | Extra Layanan DDNS, Subdomain Gratis </title>
+   <title>Example API Use FreeDDNS API</title>
 
         <meta charset="UTF-8">
         <meta name="keywords" content="ddns, free ddns, free subdomain,subdomain" />
@@ -72,12 +72,9 @@
             <!--Logo/-->
             <nav class="collapse navbar-collapse" id="primary-menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#home-page">Home</a></li>
-                    <li><a href="#feature-page">Fitur</a></li>
-                    <li><a href="#price-page">Harga</a></li>
-                    <li><a href="#faq-page">FAQ</a></li>
-                    <li><a href="#contact-page">Contact</a></li>
-                    <li><a href="https://panel.hostddns.us"><i class="fa fa-sign-in-alt"></i> Login</a></li>
+                    
+                    <li><a href="#contact-page">Home</a></li>
+                    
                 </ul>
             </nav>
         </div>
@@ -91,8 +88,8 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                         <div class="page-title">
-                            <h2>Hubungi Kami</h2>
-                            <p>Hubungi kami jika anda ingin memberikan saran / kritik.</p>
+                            <h2>FreeDDNS</h2>
+                            <p>Create Your Own DDNS & Subdomain</p>
                         </div>
                     </div>
                 </div>
