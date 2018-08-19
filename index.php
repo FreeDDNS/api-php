@@ -122,14 +122,30 @@
                             </div>
                         </address>
                     </div>
-                    <div class="col-xs-12 col-md-8">
-                        <form action="engine/process.php" id="contact-form" method="post" class="contact-form">
+                   <div class="col-xs-12 col-md-8">
+                        <form action="includes/process.php" id="contact-form" method="post" class="contact-form">
                             <div class="form-double">
-                                <input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">
-                                <input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">
+                                <select  name='domain' id="form-name" class='form-control' style='width: 100%;' required>
+                                    <option selected='selected' disabled='disable'>Please Insert Domain</option>
+                                        <option value='mikrotikindo.tech'>mikrotikindo.tech</option>
+                                             <option value='venc.me'>venc.me</option>
+                                                <option value='vpslinux.tech'>vpslinux.tech</option>
+                                                 <option value='weblinux.tech'>weblinux.tech</option>
+                                                <option value='youweb.blog'>youweb.blog</option>
+                                            <option value='fosslinux.xyz'>fosslinux.xyz</option>
+                                         <option value='blogs.web.id'>blogs.web.id</option>                  
+                                        </select>
+
+                            
+                                <select  name='domain' id="form-email" class='form-control' style='width: 100%;' required>
+                                    <option selected='selected' disabled='disable'>Please Type Records</option>
+                                         <option value='A'>A Records</option>
+                                             <option value='CNAME'>CNAME Records</option>
+                                                <option value='NS'>NS Records</option>
+                                         </select>
                             </div>
-                            <input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message topic">
-                            <textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>
+                            <input type="text" name="subdomain" id="subdomain" name="form-subject" class="form-control" placeholder="Subdomain Name">
+                            <input type="text" name="content" id="content" name="form-subject" class="form-control" placeholder="Content IP / Domain">
                             <button type="sibmit" class="button">Submit</button>
                         </form>
                     </div>
