@@ -2,12 +2,12 @@
 /**
 *
 * Engine Proses Dengan PHP cURL
-* Last Update : 20 Agustus 2018
+* Last Update : 20 September 2018
 *
 **/
 
 /** Variable Yang Dibutuhkan **/
-$api_url    = "https://panel.hostddns.us/api/v1/order/"; // Stable API Url v1 
+$api_url    = "https://panel.hostddns.us/api/v2/client/"; // Stable API Url v2 
 $api_key    = "YOUR API KEY"; // Your User API Key (Mohon Jangan Ada Karakter Spasi !)
 $service    = $_POST['service']; // Service, Available A, NS, CNAME & MX
 $domain     = $_POST['domain']; // Domain Name
